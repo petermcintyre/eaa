@@ -1,0 +1,7 @@
+
+RewriteEngine off
+
+RewriteCond %{HTTP_HOST} ^effectivealtruism\.org\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.effectivealtruism\.org\.au$
+RewriteRule ^(.*)$ "http\:\/\/eaa\.org\.au\/$1" [R=301,L]
+
