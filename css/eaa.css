@@ -14,10 +14,6 @@
     style: "font-weight: 900;
 }
 
-.plain-white-link, .plain-white-link:visited, .plain-white-link:hover, .plain-white-link:active{
-    color: white;
-    text-decoration: none;
-}
 
 .eaa-logo-topbar{
     width: 60px;
