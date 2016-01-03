@@ -6,14 +6,17 @@
 
 var page = $("html, body");
 
+function stopScrollingPage(){
+    page.stop("scroll");
+}
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
 
-        page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
-            page.stop("scroll");
-        });
+
+        page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", stopScrollingPage);
 
         page.stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -22,7 +25,7 @@ $(function() {
                 duration: 1500,
                 easing: 'easeInOutExpo',
                 complete: function () {
-                    page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
+                    page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", stopScrollingPage);
                 },
                 queue: "scroll"
             }
@@ -37,6 +40,6 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+/$('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
