@@ -1,0 +1,10 @@
+.text-button:hover, .text-button:active, .text-button:focus{
+    text-decoration: none;
+}
+
+.text-button{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px
+}

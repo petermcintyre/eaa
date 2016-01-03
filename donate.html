@@ -19,7 +19,7 @@
     <!-- Custom CSS -->
     <link href="css/eaa.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
-
+    <link href="css/donate.css" rel="stylesheet">
 
 
     <!-- Custom Fonts -->
@@ -86,7 +86,9 @@
         <p>PayPal charges us an approximately 2% fee per donation. Bank transfer has no fees. </p>
 
         <div style="text-align: center;">
-            <img width="100px" src="./img/donate/paypal.png"> <a href="javascript:void(0)" style="text-decoration:none; margin-left: 30px; font-weight: bold; font-size: 20px" id="bank-transfer-link">Bank Transfer</a>
+            <img width="100px" src="./img/donate/paypal.png">
+            <a href="javascript:void(0)" class="text-button" id="bank-transfer-link">Bank Transfer</a>
+            <a href="javascript:void(0)" class="text-button" id="cheque-link">Cheque</a>
         </div>
 
         <div id="bank-transfer-details" style="display: none">
@@ -94,14 +96,17 @@
             Account Name:<br/>
             BSB:<br/>
             Account Number:<br/>
+            If you wish to donate to a particular charity, please include the name in the reference field.<br/>
             <br/>
         </div>
 
-        <p>If you prefer to mail a check:
-            Effective Altruism Australia
-            GPO Box 265
-            Melbourne VIC 3001
-            Australia</p>
+        <div id="cheque-details" style="display: none">
+            <strong><h2>Cheque details</h2></strong>
+                Effective Altruism Australia<br/>
+                GPO Box 265<br/>
+                Melbourne VIC 3001<br/>
+                Australia<br/>
+        </div>
     </div>
     <footer>
         <div class="container">
