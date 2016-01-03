@@ -3,12 +3,21 @@
     font-size: 14px;
 }
 
+.main-content-padding{
+    padding-top: 50px;
+}
+
 /*Needs to be the second rule or else it is overridden*/
 @media (min-width: 768px){
     .agency-navbar-font-size {
-        font-size: 1.5em;
+        font-size: 21px;
+    }
+
+    .main-content-padding{
+        padding-top: 70px;
     }
 }
+
 
 .super-strong{
     style: "font-weight: 900;
