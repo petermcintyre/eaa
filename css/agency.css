@@ -649,8 +649,15 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+.team-member-row{
     margin-bottom: 50px;
+}
+
+.team-member-row-final{
+    margin-bottom: 0px;
+}
+
+.team-member {
     text-align: center;
 }
 
