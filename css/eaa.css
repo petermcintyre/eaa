@@ -39,3 +39,8 @@
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* NEW, */
 }
+
+section.reduced-padding
+{
+    padding: 75px;
+}
