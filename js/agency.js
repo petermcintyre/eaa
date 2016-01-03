@@ -15,8 +15,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
 
-
-        page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", stopScrollingPage);
+        page.on("scroll wheel DOMMouseScroll mousewheel touchmove", stopScrollingPage);
 
         page.stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -25,7 +24,7 @@ $(function() {
                 duration: 1500,
                 easing: 'easeInOutExpo',
                 complete: function () {
-                    page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", stopScrollingPage);
+                    page.off("scroll wheel DOMMouseScroll mousewheel touchmove", stopScrollingPage);
                 },
                 queue: "scroll"
             }
