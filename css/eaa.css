@@ -1,3 +1,24 @@
+
+.agency-navbar-font-size{
+    font-size: 14px;
+}
+
+/*Needs to be the second rule or else it is overridden*/
+@media (min-width: 768px){
+    .agency-navbar-font-size {
+        font-size: 1.5em;
+    }
+}
+
+.super-strong{
+    style: "font-weight: 900;
+}
+
+.plain-white-link, .plain-white-link:visited, .plain-white-link:hover, .plain-white-link:active{
+    color: white;
+    text-decoration: none;
+}
+
 .eaa-logo-topbar{
     width: 60px;
     height: 60px;
