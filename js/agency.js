@@ -12,7 +12,7 @@ $(function() {
         var $anchor = $(this);
 
         page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
-            page.stop();
+            page.stop("scroll");
         });
 
         page.stop().animate({
