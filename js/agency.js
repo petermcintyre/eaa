@@ -15,11 +15,18 @@ $(function() {
             page.stop();
         });
 
-        $('html, body').stop().animate({
+        page.stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo', function(){
-            page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
-        });
+            },
+            {
+                duration: 1500,
+                easing: 'easeInOutExpo',
+                complete: function () {
+                    page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
+                },
+                queue: "scroll"
+            }
+        ).dequeue("scroll");
         event.preventDefault();
     });
 });
