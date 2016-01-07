@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Charity Impact Calculator</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
+<link href="css/impact_style.css" media="all" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="js/vendor.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="ic-banner">
+<div class="titlebar">
+<h1 class="titlebar__title">Charity Impact Calculator</h1>
+<div>
+<fieldset class="amount amount--titlebar">
+<input type="number" class="amount__input amount__input--titlebar" placeholder="Enter Amount">
+</fieldset>
+<div class="charities charities--titlebar">
+<!-- Charities added from JSON -->
+</div>
+</div>
+</div>
+</div>
+<div class="toolbar">
+<fieldset class="amount amount--toolbar">
+<input type="number" class="amount__input amount__input--toolbar" placeholder="Enter Amount">
+</fieldset>
+<select class="charities charities--toolbar">
+<option value="" disabled="" selected="">Choose a Charity</option>
+<!-- Charities added from JSON -->
+</select>
+</div>
+<section class="ic-content">
+<div class="placeholder">
+<h1 class="placeholder__text">Enter a dollar amount above and choose a charity to get started!</h1>
+<div class="placeholder__charities"></div>
+</div>
+<div class="ic-output">
+<h1 class="output__intro" id="intro-text"></h1>
+<div class="output__results">
+<div class="output__results__container" id="results"></div>
+</div>
+<div class="output__info">
+<a href="/donate.html" class="info__donate" id="donate">Donate Now!</a>
+<article class="info__content">
+<h1 class="info__content__heading">The Organization</h1>
+<p class="info__content__text" id="organization-content">&nbsp;</p>
+</article>
+<article class="info__content">
+<h1 class="info__content__heading">The Numbers</h1>
+<p class="info__content__text" id="numbers-content">&nbsp;</p>
+</article>
+<p class="info__recommendation" id="recommendation-content">&nbsp;</p>
+<a href="" class="info__learn-more" id="learnmore">Learn More!</a>
+</div>
+</div>
+</section>
+<section class="disclaimer">
+<div class="ic-wrapper">
+<article class="disclaimer__section">
+<h1 class="disclaimer__section__heading">How to Use this Calculator</h1>
+<p>We designed this Impact Calculator to help answer the first question on a donor's mind: where does my money go?  While it's easy to focus on overhead percentages, the real impact of a charity is reflected in what that charity can do with its budget.  A donor who cares about reducing extreme poverty has hundreds of organizations to choose from &ndash; some of which are thousands of times more effective than others.  Our Impact Calculator highlights the work of twelve of the world's most effective charities, allowing you to compare each organization &ndash; and the evidence supporting each intervention &ndash; side by side.</p>
+<p>Determining a charity's cost-effectiveness can be a complicated endeavor, and we could never hope to reflect our recommended charities' full impact in one simple online tool.  Instead, we've tried to create a starting point you can use in order to kickstart your investigation into impact-oriented philanthropy.  We encourage you to use this as one resource among many in your charity assessments.  <a href="http://www.thelifeyoucansave.org/About-Us/Contact-Us">Contact Us</a> if you need further support &ndash; and don't forget to bring your friends and family in on the conversation!</p>
+</article>
+<article class="disclaimer__section">
+<h1 class="disclaimer__section__heading">Acknowledgements</h1>
+<p>Our volunteers spent countless hours digging up the data and designing the algorithm to make this calculator function.  This project would not have been possible without the hard work and dedication of Theodore Marschall, Holly Morgan, Thomas Sittler, Keith Hartnett, Dayton Thorpe, Nick Horslen, Andrew Hodder, Simon Rawlings, Clare Solomon and Sean King. Thank you!</p>
+</article>
+</div>
+</section>
+</body>
+</html>

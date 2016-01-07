@@ -1,0 +1,142 @@
+{
+  "charities" : [
+    {
+    "name" : "Against Malaria Foundation",
+    "id" : "amf",
+    "overhead" : 0.000,
+    "infoURL" : "http://www.thelifeyoucansave.org/Where-to-Donate/Against-Malaria-Foundation",
+    "donateURL" : "http://www.againstmalaria.com/Money.aspx?GroupID=84",
+    "logo" : "e600",
+    "organization" : "The Against Malaria Foundation (AMF) provides long-lasting insecticide-treated nets (LLINs) as protection against malaria. Malaria, transmitted via infected mosquitoes, <a href='http://www.who.int/malaria/media/world_malaria_report_2014/en/' target='_blank'>kills at least half a million people</a> every year according to the World Health Organization (WHO) (many put the number at more than a million) and <a href='http://www.copenhagenconsensus.com/guide-giving/malaria-prevention-and-treatment' target='_blank'>affects the health of as many as half a billion</a>; seventy percent of the deaths are of children under five. It is the world’s largest killer of pregnant women, one of the leading causes of child deaths in Africa and a major obstacle to social and economic development in sub-Saharan Africa, where 90% of malaria deaths occur.",
+    "recommendation" : "AMF is one of <a href='http://thelifeyoucansave.org/where-to-donate' target='_blank'>The Life You Can Save's top-rated charities</a>. But don't just take our word for it. The researchers at <a href='http://www.givingwhatwecan.org/' target='_blank'>Giving What We Can <span class='ExternalLinkDrk'></span></a> rank AMF as one of only four charities to earn their top recommendation, based on outstanding cost-effectiveness. <a href='http://www.givewell.org/' target='_blank'>GiveWell <span class='ExternalLinkDrk'></span></a>, a research organization which recommends &quot;evidence-backed, thoroughly vetted and underfunded&quot; charities, <a href='http://www.givewell.org/charities/top-charities' target='_blank'>also lists AMF as a top-ranked charity <span class='ExternalLinkDrk'></span></a>.",
+    "numbers" : "Each <a href='http://www.againstmalaria.com/WhyNets.aspx' target='_blank'>LLIN <span class='ExternalLinkDrk'></span></a> costs roughly $3, lasts for around three to four years, and protects 1.8 people from malaria on average. Dr. Christen Lengeler of the Swiss Tropical Institute <a href='http://files.givewell.org/files/DWDA%202009/AMF/Lengeler%202004.pdf' target='_blank'>estimates</a> one life is saved for every 160 bednet years, which would equate to one life saved for every 20 bednets (&sim;$60). Charity research organization GiveWell has made the much more conservative estimate of $3,400. Public donations to AMF are used <a href='http://www.againstmalaria.com/NonNetCostsExplained.aspx' target='_blank'>exclusively to fund bednets <span class='ExternalLinkDrk'></span></a>, so AMF has an effective overhead rate of 0% (non-net costs are fundraised for separately, and discussed <a href='http://www.againstmalaria.com/NonNetCostsExplained.aspx' target='_blank'>here <span class='ExternalLinkDrk'></span></a>).",
+    "pricePoints" :   [
+        {
+        "price" : 3.000,
+        "iconURL" : "/img/results/amf-net.png",
+        "color" : "green",
+        "text" :   {
+          "single" : "Provide a bednet to protect those living in malaria-stricken areas from infected mosquitos.",
+          "plural" : "Provide * bednets to protect those living in malaria-stricken areas from infected mosquitos."
+          }
+        },
+        {
+        "price" : 1.660,
+        "iconURL" : "/img/results/sci-student.png",
+        "color" : "red",
+        "joiner" : "and",
+        "text" :   {
+          "single" : "Protect someone from malaria for three to four years, on average.",
+          "plural" : "Protect * people from malaria for three to four years, on average."
+          }
+        },
+        {
+        "price" : 3337.000,
+        "iconURL" : "/img/results/life-saved.png",
+        "color" : "red",
+        "joiner" : "and",
+        "text" :   {
+          "single" : "Save * life, according to GiveWell.",
+          "plural" : "Save * lives, according to GiveWell."
+          }
+        }
+      ]
+    },
+    {
+    "name" : "Evidence Action",
+    "id" : "evidence-action",
+    "overhead" : 0.000,
+    "infoURL" : "http://www.thelifeyoucansave.org/Where-to-Donate/Evidence-Action",
+    "donateURL" : "http://evidenceaction.org/give/?utm_source=thelifeyoucansave&utm_medium=website&utm_campaign=bestcharities",
+    "logo" : "e602",
+    "organization" : "<a href='http://www.evidenceaction.org/' target='_blank'>Evidence Action</a> oversees three main initiatives: <a href='http://www.evidenceaction.org/dispensers/'>Dispensers for Safe Water</a> is a sustainable rural water service that maintains chlorine dispensers directly at the water source, ensuring access to safe drinking water for more than 3 million people in rural Kenya, Uganda, and Malawi. <a href='http://www.evidenceaction.org/dewormtheworld/'>Deworm the World Initiative</a> works with governments to support national school-based deworming programs that treat more than 160 million children for parasitic worm infections annually in India, Kenya, Vietnam, and Ethiopia. Evidence Action is dedicated to making their programs sustainable for the long-term.",
+    "recommendation" : "Evidence Action is one of <a href='http://thelifeyoucansave.org/where-to-donate'>The Life You Can Save's top-rated charities.</a> But don't just take our word for it. GiveWell, widely considered the most rigorous charity evaluator in the world, recommends <a href='https://www.givingwhatwecan.org' target='_blank'>only four top charities <span class='ExternalLinkDrk'></span></a>, of which <a href='https://www.givingwhatwecan.org' target='_blank'>Deworm the World is one <span class='ExternalLinkDrk'></span></a>.  Similarly, the researchers at <a href='https://www.givingwhatwecan.org' target='_blank'>Giving What We Can <span class='ExternalLinkDrk'></span></a> rank Deworm the World as one of only four charities to earn their top recommendation based on outstanding cost-effectiveness.",
+    "numbers" : "Over <a href='http://www.who.int/mediacentre/factsheets/fs366/en/'> million children</a> are at risk of being infected with parasitic worms. And <a href='http://www.evidenceaction.org/#dispensers'>every year, over 3.4 million people die from water, sanitation and hygiene-related causes</a>; childhood diarrhea caused by unsafe water and poor sanitation kills more than 2,000 children each day. It costs around $0.84 (as of August 2015 per Evidence Action) person per year to access a chlorine dispenser provided by Dispensers for Safe Water, but the price will drop to $0.50 per person per year when the program is operating at scale by 2018, serving 25 million people.  Deworm the World protects children from parasitic worms for an annual cost of <a href='http://www.evidenceaction.org/blog-full/how-do-we-calculate-the-cost-of-deworming' target='_blank'>$0.10 per child <span class='ExternalLinkDrk'></span></a> (weighted average cost Evidence Action incurs, across geographies).  A <a href='http://www.evidenceaction.org/wp-content/uploads/2013/10/20140309-Deworm-Overview_global-version.pdf' target='_blank'>randomized trial in Kenya <span class='ExternalLinkDrk'></span></a> found that deworming reduced student absenteeism by 25%, increased future wage earnings by 23% and increased adult work hours by 12%.  A recent study from the <a href='http://scholar.harvard.edu/files/kcroke/files/ug_lr_deworming_071714.pdf' target='_blank'>Harvard School of Public Health <span class='ExternalLinkDrk'></span></a> found that students in deworming treatment areas performed better on literacy and numeracy tests as compared with other students 7-8 years after the end of their deworming treatment. Donations for Evidence Action Beta directly support pressure-testing specific, promising anti-poverty and health interventions in field trials and scale-up of those proving successful. Evidence Action has an <a href='http://overheadmyth.com/faqs/' targe='_blank'>overhead rate <span class='ExternalLinkDrk'></span></a> of roughly 12% which is included in all statements regarding cost (so there is no need to subtract overhead costs before calculating the cost per person served).  Keep in mind that the overhead ratio is not a direct measurement of charity effectiveness.",
+    "pricePoints" :   [
+        {
+        "price" : 0.100,
+        "iconURL" : "/img/results/sci-student.png",
+        "color" : "red",
+        "text" :   {
+          "single" : "Deworm a child",
+          "plural" : "Deworm * children"
+          }
+        },
+        {
+        "price" : 0.840,
+        "iconURL" : "/img/results/ea-water.png",
+        "color" : "blue",
+        "joiner" : "or",
+        "text" :   {
+          "single" : "Provide safe water to one community member for one year",
+          "plural" : "Provide safe water to * community members for one year"
+          }
+        },
+        {
+        "price" : 1.000,
+        "iconURL" : "/img/results/pif-interventions.png",
+        "color" : "green",
+        "joiner" : "or",
+        "text" :   {
+          "single" : "Channel one dollar toward testing and scaling highly effective poverty interventions",
+          "plural" : "Channel * dollars toward testing and scaling highly effective poverty interventions"
+          }
+        }
+      ]
+    },
+    {
+    "name" : "GiveDirectly",
+    "id" : "givedirectly",
+    "overhead" : 0.090,
+    "infoURL" : "http://www.thelifeyoucansave.org/Where-to-Donate/Give-Directly",
+    "donateURL" : "https://givedirectly.org/give-now.php?utm_source=thelifeyoucansave&utm_medium=website&utm_campaign=bestcharities",
+    "logo" : "e606",
+    "organization" : "GiveDirectly provides unconditional cash transfers to extremely poor households in Kenya and Uganda. Recipients are selected using objective criteria like housing material. GiveDirectly then transfers $1,000 directly to recipients using mobile payments technology, and recipients use the money to pursue their own goals. Recipients use their transfers for a range of purchases, food, medical and education expenses, durables, home improvement, social events, iron roofs, livestock, and furniture.",
+    "recommendation" : "GiveDirectly is one of <a href='http://thelifeyoucansave.org/where-to-donate'>The Life You Can Save's top-rated charities.</a> But don't just take our word for it. GiveWell, widely considered the most rigorous charity evaluator in the world, recommends <a href='http://www.givewell.org' target='_blank'>only four top charities <span class='ExternalLinkDrk'></span></a>, of which <a href='http://www.givewell.org/charities/top-charities' target='_blank'>GiveDirectly is one <span class='ExternalLinkDrk'></span></a>.",
+    "numbers" : "Cash transfers are one of the most <a href='http://www.givewell.org/international/technical/programs/cash-transfers' target='_blank'>thoroughly researched <span class='ExternalLinkDrk'></span></a> anti-poverty tools.  Dozens of high-quality studies have found that cash transfers improve a range of outcomes including child health and schooling, nutrition, and income. GiveDirectly is committed to transparently measuring and improving its impact through <a href='https://www.givedirectly.org/evidence.php' target='_blank'>randomized controlled trials <span class='ExternalLinkDrk'></span></a> (the &quot;gold standard&quot; in social sciences research). By targeting the extreme poor (recipients live on $0.65 a day on average), GiveDirectly enables recipients to transform their lives with the cash transfer. GiveDirectly delivers 91% of each donated dollar directly to recipients, and uses the remaining 9% to cover all delivery costs including staff wages, transfer fees, and other costs traditionally considered &quot;<a href='http://overheadmyth.com/faqs/' target='_blank'>overhead <span class='ExternalLinkDrk'></span></a>.&quot;",
+    "pricePoints" :   [
+        {
+        "price" : 1.000,
+        "iconURL" : "/img/results/gd-household.png",
+        "color" : "green",
+        "text" :   {
+          "single" : "Provide one dollar directly to recipients to use as they wish. An independent impact evaluation has shown that GiveDirectly's cash transfers increase recipients' assets, food security and mental health.",
+          "plural" : "Provide * dollars directly to recipients to use as they wish. An independent impact evaluation has shown that GiveDirectly's cash transfers increase recipients' assets, food security and mental health."
+          }
+        },
+        {
+        "price" : 1000.000,
+        "iconURL" : "/img/results/gd-family.png",
+        "color" : "green",
+        "joiner" : "or",
+        "text" :   {
+          "single" : "Fund a household over one to two years, covering an average of five family members per household.",
+          "plural" : "Fund * households over one to two years, covering an average of five family members per household."
+          }
+        }
+      ]
+    },
+    {
+    "name" : "Schistosomiasis Control Initiative",
+    "id" : "sci",
+    "overhead" : 0.000,
+    "infoURL" : "http://www.thelifeyoucansave.org/Where-to-Donate/Schistosomiasis-Control-Initiative",
+    "donateURL" : "http://www.givewell.org/international/top-charities/schistosomiasis-control-initiative/donate?utm_source=thelifeyoucansave&utm_medium=website&utm_campaign=bestcharities",
+    "logo" : "e60e",
+    "organization" : "Worms and other parasitic and bacterial Neglected Tropical Diseases (NTDs) affect two billion people worldwide, most of whom live on less than $2 a day. <a href='http://www3.imperial.ac.uk/schisto/schistosomiasis' target='_blank'> The most deadly of these is Schistosomiasis, which ranks second only to malaria as the most common parasitic disease, killing 280,000 people a year.</a>. Another 300 million, roughly the population of the United States, suffer from severe illness, and half of those are school-aged children. NTDs are responsible for a range of serious health problems from malnutrition, to impaired cognitive development, to blindness. They can increase the morbidity and mortality of malaria, tuberculosis and HIV/AIDS, and infected children are often too sick to attend school.  Schistosomiasis Control Initiative (SCI) works with governments across sub-Saharan Africa to create or scale up mass school-based deworming programs, which have a strong track record of success. These programs provide school children with pills that protect against the most prevalent NTDs.",
+    "recommendation" : "SCI is one of <a href='http://thelifeyoucansave.org/where-to-donate'>The Life You Can Save's top-rated charities.</a> But don't just take our word for it. Treating NTDs is a <a href='http://www.sabin.org/updates/pressreleases/integrated-neglected-tropical-disease-control-and-elimination-programs-global' target='_blank'>&quot;best buy&quot; <span class='ExternalLinkDrk'></span></a> in public health according to The World Health Organization (WHO).  GiveWell, widely considered the most rigorous charity evaluator in the world, recommends <a href='http://www.givewell.org' target='_blank'>only four top charities <span class='ExternalLinkDrk'></span></a>, of which <a href='http://www.givewell.org/charities/top-charities' target='_blank'>SCI is one <span class='ExternalLinkDrk'></span></a>.  The researchers at <a href='https://www.givingwhatwecan.org' target='_blank'>Giving What We Can <span class='ExternalLinkDrk'></span></a> rank <a href='https://www.givingwhatwecan.org/top-charities/schistosomiasis-control-initiative' target='_blank'>SCI <span class='ExternalLinkDrk'></span></a> as one of only four charities to earn their top recommendation, based on their outstanding cost-effectiveness.",
+    "numbers" : "Deworming helps improve both a child’s health and education. <a href='http://eml.berkeley.edu//~emiguel/pdfs/miguel_worms.pdf'>A randomized trial in Kenya</a> found that deworming reduced student absenteeism by 25%, increased future wage earnings by 23% and increased adult work hours by 12%. <a href='http://scholar.harvard.edu/files/kcroke/files/ug_lr_deworming_071714.pdf'>A recent study from the Harvard School of Public Health</a> found that students in deworming treatment areas performed better on literacy and numeracy tests as compared with other students 7-8 years after the end of their deworming treatment.<br/><br/>Since its inception in 2002, SCI has facilitated dispensing over 140 million deworming treatments-- 40 million alone in 2014. One pharmaceutical company (Merck KGaA) will donate 100 million treatments annually from 2016, more than double the number that has been treated in any one year to date. SCI therefore needs to ramp up funding to cover the costs of advocacy, training, delivery and data collection in order to help reach this record-breaking number of children in poverty. With sufficient donation support, SCI projects its programming will reach 50 million children per year by the end of 2015, and grow to include 60 million per year by 2017.<br/><br/>These programs are highly cost-effective, averaging about $0.80 per child per year. Overhead costs are 14% of SCI’s total budget (keep in mind that the overhead ratio is not a direct measurement of charity effectiveness). All costs, including overheads, have been factored into the $0.80 per child per year estimate.",
+    "pricePoints" :   [
+        {
+        "price" : 0.800,
+        "iconURL" : "/img/results/dwti.png",
+        "color" : "red",
+        "text" :   {
+          "single" : "Protect a child from schistosomiasis for one year, preventing life-threatening conditions including bladder cancer, kidney malfunction, spleen damage, and anaemia.",
+          "plural" : "Protect * children from schistosomiasis for one year, preventing life-threatening conditions including bladder cancer, kidney malfunction, spleen damage, and anaemia."
+          }
+        }
+      ]
+    }
+  ]
+}

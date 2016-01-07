@@ -78,3 +78,8 @@ section.reduced-padding
     padding: 75px;
 }
 
+.eaa-logo-footer{
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+}
