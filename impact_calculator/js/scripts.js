@@ -1,7 +1,7 @@
 'use strict';
 
 //Needs to be updated if the directory is changed
-var IMPACT_CALCULATOR_PATH = "impact_calculator";
+var IMPACT_CALCULATOR_PATH = "impact_calculator/";
 
 // DOM Ready
 $(function() {
@@ -136,7 +136,7 @@ var getData = (function() {
       return;
     }
 
-    $.getJSON(IMPACT_CALCULATOR_PATH+'/json/charities.json', function(data) {
+    $.getJSON(IMPACT_CALCULATOR_PATH+'json/charities.json', function(data) {
       cache = data;
       callback(data);
     })
@@ -232,7 +232,7 @@ function calcImpact(charity, amount) {
       impacts.push({
         amount: n,
         text: n === 1 ? pricePoint.text.single : pricePoint.text.plural,
-        icon: pricePoint.iconURL,
+        icon: IMPACT_CALCULATOR_PATH+pricePoint.iconURL,
         joiner: pricePoint.joiner || false,
         color: pricePoint.color
       });
@@ -241,7 +241,7 @@ function calcImpact(charity, amount) {
       impacts.push({
         amount: '',
 				text: 'Want to make a bigger difference? Increase your donation!',
-				icon: pricePoint.iconURL,
+				icon: IMPACT_CALCULATOR_PATH+pricePoint.iconURL,
         joiner: false,
         color: pricePoint.color
       });
