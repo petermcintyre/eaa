@@ -1,5 +1,8 @@
 'use strict';
 
+//Needs to be updated if the directory is changed
+var IMPACT_CALCULATOR_PATH = "impact_calculator";
+
 // DOM Ready
 $(function() {
 
@@ -133,7 +136,7 @@ var getData = (function() {
       return;
     }
 
-    $.getJSON('json/charities.json', function(data) {
+    $.getJSON(IMPACT_CALCULATOR_PATH+'/json/charities.json', function(data) {
       cache = data;
       callback(data);
     })
