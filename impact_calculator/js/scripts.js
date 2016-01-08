@@ -339,6 +339,7 @@ function writeResults(charity, impacts, elements){
 $(function(){
 
   // Toolbar scroll
+  console.log($('.ic-content').waypoint);
   $('.ic-content').waypoint(function(direction){
     if (direction === 'down') {
       $('.toolbar').addClass('toolbar--scroll');
